@@ -14,13 +14,31 @@
 - Atlassian Sourcetree: [다운로드](https://www.sourcetreeapp.com/)
 
 ## 과제 내용
-1. 자신의 레포지토리를 Clone해보자.
+1. 자신의 레포지토리를 Clone해보자: `git clone http://github.com/[내 ID]/scp-git-practice`
 2. Clone한 폴더 내에 `.git`이라는 이름의 폴더가 존재하는지 확인한다(기본적으로 숨겨져 있다).
 3. 새로운 한글 파일을 만들어 아무 내용을 적고 `과제.hwp`라는 이름으로 저장한다  
 (앞으로는 Clone한 폴더 내에서 계속 작업한다).
 4. `cmd`나 `powershell` 등의 콘솔을 열고,  
 저장된 파일을 `git add .`, `git commit`, `git push` 세 단계에 걸쳐서 GitHub 서버로 PUSH한다.
 5. Push된 파일을 자신의 레포지토리(GitHub)에 들어가 확인한다.
+
+---
+# 두번째 과제
+## 과제 내용
+1. `과제.hwp`를 수정해서 저장한다.
+2. `cmd`나 `powershell` 등의 콘솔을 열고,  
+저장된 파일을 `git add .`, `git commit`, `git push` 세 단계에 걸쳐서 GitHub 서버로 PUSH한다.
+3-1. `git log`, `git checkout`을 이용해서 이전에 수정했던 자료를 가져와서 확인한다.
+3-2. 기존에 수정했던 내용을 GitHub내 자신의 레포지토리에서도 확인한다.
+
+---
+# 세번째 과제 (심화)
+## 과제 내용
+1. 다른 사람의 Git 레포지토리를 Fork해보자.
+2. Fork한 레포지토리를 Clone해보자: `git clone http://github.com/[내 ID]/[Fork한 레포지토리명]`
+3. Fork한 레포지토리에 새로운 파일을 추가하거나, 기존의 파일을 수정한다.
+4. `git add .`, `git commit`, `git push` 세 단계에 걸쳐서 GitHub 서버로 PUSH한다.
+5. GitHub 내 Clone한 레포지토리에 들어가서 변경된 내용을 확인한다.
 
 # Troubleshooting
 1. Git을 찾을 수 없을 때:
