@@ -9,6 +9,11 @@
 
 ---
 # 첫번째 과제
+## 준비물
+- Git for Windows: [다운로드](https://git-scm.com/)
+- Atlassian Sourcetree: [다운로드](https://www.sourcetreeapp.com/)
+
+## 과제 내용
 1. 자신의 레포지토리를 Clone해보자.
 2. Clone한 폴더 내에 `.git`이라는 이름의 폴더가 존재하는지 확인한다(기본적으로 숨겨져 있다).
 3. 새로운 한글 파일을 만들어 아무 내용을 적고 `과제.hwp`라는 이름으로 저장한다  
